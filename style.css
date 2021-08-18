@@ -1,0 +1,481 @@
+body{
+	margin:0px;
+	padding: 0px;     	  
+}
+html{
+	scroll-behavior: smooth;
+}
+.maindiv{
+
+		height: 40px;
+		background:linear-gradient(75deg,blue,lightgreen,lightgreen,lightgreen,lightgreen,blue);
+        text-align: center;
+	}
+	/*@keyframes wave {
+		0%{background:lightblue;}
+		500%{background:green;}
+		100%{background:lightgreen;}
+	}*/
+	#qwe{
+		color: #42414C;
+		font-size: 35px;
+		line-height: 40px;
+		font-family: sans-serif;
+	}
+	/*.second{
+		background: black;
+		height: 40px;
+		text-align: center;
+		font-family: sans-serif;	
+	}*/
+	#as{
+		font-size: 25px;
+		color:#42414C;
+		font-family: initial;
+		
+	}
+	.navbar-nav{
+		font-size: 19px;
+		margin-top: 20px; 
+	}
+	.navbar-nav .nav-link{
+      font-family: initial;
+      margin-left: 20px; 
+	}
+	.navbar-nav .nav-link:hover{
+		border-bottom:solid 3px lightgreen;
+		height: 50px;
+
+	}
+
+   /*/* /* Remove border from toggler */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow:none;
+    border: none;
+}
+
+
+/*.middle-bar{
+    margin: 4px auto;
+}*/
+
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+/*.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: lightgreen;
+}*/
+/* Lines of the Toggler */
+/*.toggler-icon{
+    width: 20px;
+    height: 3px;
+    background-color: blue;
+    display: block;
+    transition: all 0.2s;
+}*/
+/*/* State when navbar is opened (START) */
+/*.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+    transform: rotate(-55deg);
+    transform-origin: 0% 10%;
+}
+*/
+
+
+
+
+
+	/*#slider{
+		height: 550px;
+		background-image: url(honey1.jpg);
+		background-size: 100% 100%;
+		animation-name: slider;
+        animation-duration: 20s;
+        animation-iteration-count: infinite ;
+        margin-bottom: 20px;
+        background-color: #cccccc;		
+	}
+	@keyframes slider {
+		0%{background-image: url(honey1.jpg);}
+		20%{background-image: url(saffron.jpg)}
+		45%{background-image: url(hurbs2.jpg);}
+		60%{background-image: url(oils.jpg);}
+		80%{background-image: url(flavous1.jpg)}
+	}*/
+
+
+
+	/*.ceo{
+		height: 300px;
+		width: 100%;
+		background: #E1DEC8;
+	/*}*/
+	/*.ceo{
+		background: lightgreen;
+		height: 290px;
+		margin-top: 40px;
+	}*/
+	.pic{
+		height: 200px;
+	text-align: center;
+	margin:45px 80px 0px 190px;
+	
+	
+
+	}
+	.mess{
+	height: 200px;
+	width: 600px;
+	text-align: center;
+	
+	margin:30px 0px 0px 0px;	
+	}
+	.mess h2{
+		line-height: 70px;
+		font-family: initial;
+	}
+.vis{
+	margin: 40px;
+	text-align: center;
+	margin-top: 50px;
+}
+.vis p{
+	font-family: initial;
+	font-size: 19px;
+}
+.mis{
+	text-align: center;
+	margin-top: 50px;
+}
+.mis h2{
+	font-family: initial;
+	line-height: 70px;
+}
+.mis p{
+font-family: initial;
+	font-size: 19px;	
+}
+
+.vis h2{
+	font-family: initial;
+	line-height: 70px;
+}
+.obj{
+	
+	text-align: center;
+	margin: 40px;
+	margin-top: 50px;
+}
+.obj h2{
+	line-height: 70px;
+	font-family: initial;
+}
+
+
+
+	h1{
+		text-align: center;
+		font-family: initial;
+	}
+	.container .card{
+                 border-radius: 100%;
+                 height: 100px;
+                 width: 100px;
+                 border:solid 3px blue; 
+                 margin-top: 40px;
+                 text-align: center;
+                 line-height: 90px;
+                 font-family: initial;
+                 font-size: 15px;
+                 margin-left: 7px;
+                 margin-right: 7px;        
+		}
+		.container .card a{
+		text-decoration: none;
+		color: black;
+		display: block;		 
+		}
+		#sponser .card{
+                 border-radius: 10%;
+                 height: 100px;
+                 width: 250px;  
+		}
+		#sponser .card a{
+		text-decoration: none;
+		color: black;
+		display: block;		 
+		}
+
+		/*
+.contain .card{
+                 border-radius: 100%;
+                 height: 100px;
+                 width: 100px;
+                 border:solid 3px green;
+                 margin-top: 70px;
+                 text-align: center;
+                 line-height: 90px;
+                 font-family: initial;
+                 font-size: 15px;
+             }
+		.contain .card a{
+		text-decoration: none;
+		color: black;
+		display: block;
+		}
+		.contain .card:hover{
+			font-size: 0;
+			transform: scale(1.1);
+			
+		}*/
+		.container .card:hover{
+			font-size:0;
+			transform: scale(1.1);
+			display: block;
+}
+#a1:hover{
+background:url(ho.jpg);
+			background-size: 100% 100%;
+	 border-radius: 100%;
+	 		
+}
+#a2:hover{
+background:url(sa.jpg);
+			background-size: cover;	
+			border-radius: 100%;
+}
+#a3:hover{
+background:url(so.jpg);
+			background-size: cover;	
+			border-radius: 100%;
+}
+#a4:hover{
+background:url(qwe.jpg);
+			background-size: cover;	
+			border-radius: 100%;
+}
+#a5:hover{
+background:url(ko.jpg);
+			background-size: cover;	
+			border-radius: 100%;
+}
+#a6:hover{
+background:url(bur.jpg);
+			background-size: cover;	
+			border-radius: 100%;	 
+}
+#a7:hover{
+background:url(zum.jpg);
+			background-size: cover;	
+			border-radius: 100%;
+}
+#a8:hover{
+background:url(da.jpg);
+			background-size: cover;	
+			border-radius: 100%; 
+}
+#a9:hover{
+background:url(dro.jpg);
+			background-size: cover;	
+			border-radius: 100%;
+}
+#a10:hover{
+background:url(zauk.jpg);
+			background-size: cover;	
+			border-radius: 100%;
+			height: 93px;
+}
+		.m{
+          margin-top: 50px;
+		}
+		#our{
+			color: blue;
+		}
+		#pro{
+			color: #BAE735;
+		}
+       .bg-primary i:hover{
+       transform: rotateY(180deg);
+       transition: 0.3s;  
+       }
+       #foot{
+       }
+       .back{
+       	background-image: linear-gradient(white,rgba(12,13,03,0.01)),url(43.png);
+       	background-position: center;
+       	background-size:80% 110%;
+       	overflow-x: hidden;
+       	position: relative;
+       }
+       .scroll{
+	position: fixed;
+	bottom: 35px;
+	right: 15px;
+	z-index: 10;
+	cursor: pointer;
+	display: block;
+}
+.scroll i{
+	height: 35px;
+	width: 35px;
+	background: lightgreen;
+	text-align: center;
+	border-radius: 70%;
+	color: green;
+	line-height: 33px;
+}
+
+ #list{
+	position: fixed;
+	bottom: 140px;
+	right: 4px;
+	z-index: 10;
+	cursor: pointer;
+	display: block;
+}
+#list i{
+	height: 55px;
+	width: 55px;
+	background: blue;
+	text-align: center;
+	border-radius: 70%;
+	color: white;
+	line-height: 50px;
+}
+#abr{
+	font-size: 0;
+}
+
+    
+
+.what{
+	position: fixed;
+	bottom: 35px;
+	left: 25px;
+	z-index: 60;
+	cursor: pointer;
+	display: block;
+	
+}
+.what i{
+	height: 65px;
+	width: 65px;
+	background:#2DBB0A;
+	text-align: center;
+	border-radius: 70%;
+	color: white;
+	line-height: 67px;
+	animation: wee 8s 1;
+}
+.what i:hover{
+	background-color: #7BE661;
+	transition: 0.6s;
+	transform: scale(1.1); 
+}
+@keyframes wee{
+	0%{
+     margin-left: -180px;   
+	}
+	40%{
+        margin-left: 0px;
+	}
+}
+
+#ww1:hover{
+	background: url(fida.jpg);
+	background-size: cover;
+	transition: 0.3s;
+}
+#ww2:hover{
+	background: url(fida.jpg);
+	background-size: cover;
+}
+#ww3:hover{
+	background: url(fida.jpg);
+	background-size: cover;
+}
+#ww4:hover{
+	background: url(fida.jpg);
+	background-size: cover;
+}
+#hover1:hover{
+	color: black;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)> span i {
+    display:none;
+    
+}
+
+span i{
+	color: lightgreen;	
+}
+#ani1{
+   animation: spo 3s infinite;
+   animation-direction: alternate;
+ }
+@keyframes spo{
+	from{border-radius: 0%;}
+	to{border-radius: 50%;}
+}
+#ani1:hover{
+	
+	box-shadow: 3px 5px 3px #A9A9A9;   
+}
+
+#manbus img{
+position: fixed;
+	bottom: 120px;
+	left: 4px;
+	z-index: 10;
+	animation: wee 7s 1;
+	margin-left: -100px;	
+}
+#manbus p{
+	position: fixed;
+	bottom: 230px;
+	left: 4px;
+	z-index: 10;
+	font-size: 0px;
+	animation: p 6s 1;
+} 
+}
+@keyframes wee{
+	0%{
+     margin-left: 0px;   
+	}
+	100%{
+        margin-left: -100px;
+	}
+}
+@keyframes p{
+	50%{
+     font-size: 17px;   
+	}
+	80%{
+        font-size:0px;
+	}
+}

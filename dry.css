@@ -1,0 +1,66 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}	
+.dry{
+	font-size: 70px;
+animation: othe 5s 1;
+text-align: center;
+font-family: initial;
+ text-shadow: 0 0 3px #FF0000, 0 0 5px black;
+ color: #D6DD3D;
+}
+.body18{
+	background:url(ddd.jpg); 
+	background-size:15% 100%;
+	height:60px;
+}
+#ruit{
+	margin-left: 10px;
+	font-family: initial;
+}
+#ruit p{
+	font-size: 19px;
+}
+#ruit h2{
+color: #A2662C;
+}
+ul a{
+color: brown;
+font-family: initial;
+font-size: 19px;
+}
+ul a:hover{
+color:#CCD664;
+text-decoration: none;
+
+}
+@keyframes othe{
+	0%{
+		font-size: 0px;
+	}
+	40%{
+		font-size: 70px; 
+	}
+}
+  .scroll{
+	position: fixed;
+	bottom: 35px;
+	right: 15px;
+	z-index: 10;
+	cursor: pointer;
+	display: block;
+}
+.scroll i{
+	height: 35px;
+	width: 35px;
+	background: lightgreen;
+	text-align: center;
+	border-radius: 70%;
+	color: green;
+	line-height: 33px;
+}
+   

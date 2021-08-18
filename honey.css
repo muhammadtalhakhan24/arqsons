@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.honey{
+	animation: bee 8s 1;
+	margin-left: -80px;	
+}
+.le{
+	font-size: 80px;
+animation: lee 5s 1;
+text-align: center;
+font-family: initial;
+ text-shadow: 0 0 3px #FF0000, 0 0 5px black;
+ color: #D7EC20;
+
+}
+.body2{
+	height: 100px;
+	background:linear-gradient(#ffc107,#E7F668,#EAE728);
+}
+.body3{
+	height: 80px;
+	background:url(https://www.dabur.com/daburhoney/images/14-benefits-bg.png);
+	background-size: 100% 100%;
+}
+#pol h1{
+	font-family: initial;
+	text-align: center;
+}
+ol p{
+	font-family: initial;
+	font-size: 20px;
+}
+ul p{
+	font-family: initial;
+	font-size: 20px;
+}
+#pol p{
+	font-family: initial;
+	font-size: 20px;
+}
+ol h2{
+	font-family: initial;
+}
+ol{
+   font-size: 20px;
+   list-style: lower-roman;
+  
+}
+ul a{
+	text-decoration: none;
+	color: black;
+}
+ul a:hover{
+	text-decoration: none;
+	color:#C6D638; 
+}
+
+
+@keyframes bee{
+	0%{
+		margin-left: -20%;
+	}
+	/*30%{
+		margin-left: 20%;
+	}
+	60%{
+		margin-left: 60%;
+	}
+	90%{
+		margin-left: 80%;
+	}*/
+	100%{
+		margin-left: 100%;
+		visibility: hidden;
+	}
+  
+}
+@keyframes lee{
+	0%{
+		font-size: 0px;
+	}
+	/*30%{
+		font-size: 25px;
+	}
+	60%{
+		font-size: 60px;
+	}*/
+	40%{
+		font-size: 80px; 
+	}  
+}
+  .scroll{
+	position: fixed;
+	bottom: 35px;
+	right: 15px;
+	z-index: 10;
+	cursor: pointer;
+	display: block;
+}
+.scroll i{
+	height: 35px;
+	width: 35px;
+	background: yellow;
+	text-align: center;
+	border-radius: 70%;
+	color: green;
+	line-height: 33px;
+}
+   		

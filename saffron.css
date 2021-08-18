@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.lel{
+	font-size: 70px;
+animation: leel 4s 1;
+text-align: center;
+font-family: initial;
+ text-shadow: 0 0 3px #FF0000, 0 0 5px black;
+ color: #DE6767;
+
+}
+.body3{
+	height: 100px;
+	background:linear-gradient(#C22929,#C44E4E,#C22929);
+}
+.body4{
+	background: url(ssa.jpg);
+	background-size: 20% 100%;
+	height: 70px;
+}
+#sa p {
+	font-family: initial;
+	font-size: 19px;
+	margin-left: 20px; 
+}
+ol li{
+font-family: initial;
+	font-size: 19px;	
+}
+#sa h2{
+	font-family: initial;
+	color: #C22929;
+	margin-left: 20px;
+}
+@keyframes leel{
+	0%{
+		font-size: 0px;
+	}
+	40%{
+		font-size: 70px; 
+	}  
+}
+  .scroll{
+	position: fixed;
+	bottom: 35px;
+	right: 15px;
+	z-index: 10;
+	cursor: pointer;
+	display: block;
+}
+.scroll i{
+	height: 35px;
+	width: 35px;
+	background:green;
+	text-align: center;
+	border-radius: 70%;
+	color: green;
+	line-height: 33px;
+}
